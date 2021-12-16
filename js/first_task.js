@@ -1,4 +1,4 @@
-const { testData, testData2, testData3, testData4 } = require('./testData');
+const { testData } = require('../testData');
 
 // 1 (1бал)
 // Сделать функцию поиска значений в массиве.

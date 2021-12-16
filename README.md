@@ -1,2 +1,2 @@
 to test use CLI
-'node ./first_task.js', 'node ./second_task.js', etc
+'node ./js/first_task.js', 'node ./js/second_task.js', etc

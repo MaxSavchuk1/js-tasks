@@ -1,4 +1,4 @@
-const { testData, testData2, testData3, testData4 } = require('./testData');
+const { testData, testData2 } = require('../testData');
 
 // 2 (1бал)
 // Сделать функцию подсчета среднего значения, с возможностью исключения не числовых значений

@@ -1,4 +1,4 @@
-const { testData2 } = require('./testData');
+const { testData2 } = require('../testData');
 
 // 3 (1бал)
 // Сделать функцию которая разбивает массив на подмассивы указанной длинны.
