@@ -12,12 +12,12 @@ const array_contains = (arr, search) => {
     const preNormalData = [];
     for (const el of arr) {
       if (el instanceof Object) {
-        preNormalData.push(Object.values(el));
+        preNormalData.push(...Object.values(el));
         continue;
       }
       preNormalData.push(el);
     }
-    return preNormalData.flat();
+    return preNormalData;
   };
 
   const normalizedData = normalizeData(prepairedData);
